@@ -1,0 +1,136 @@
+.navbar {
+	float: left;
+	margin-left: 3%;
+	position: fixed;
+}
+
+.navbar a, p {
+	display: block;
+}
+
+.navbar-pages {
+	display: block;
+	text-align: center;
+}
+
+.navbar-pages .focused {
+	background: black;
+	color: white;
+}
+
+
+#portfolio {
+	width: 70%;
+	float: right;
+	margin-right: 15%;
+	margin-bottom: 20px;
+}
+
+#portfolio img {
+	width: 33%;
+}
+
+#about {
+	float: right;
+	width: 70%;
+	margin-right: 15%;
+	margin-bottom: 20px;
+	background-color: gray;
+	text-align: center;
+	color: white;
+}
+
+#about .info {
+	width: 480px;
+	margin: 0 auto 0 auto;
+	text-align: justify;
+	border-bottom: 1px solid white;
+}
+
+.skills {
+	width: 480px;
+	margin: 0 auto 0 auto;
+	border-bottom: 1px solid white;
+	text-align: left;
+}
+
+.skill-bar-white {
+	background-color: white;
+	color: black;
+}
+
+.skill-bar1 {
+	width: 95%;
+	background-color: silver;
+	text-align: center;
+}
+
+.skill-bar2 {
+	width: 85%;
+	background-color: silver;
+	text-align: center;
+}
+
+.skill-bar3 {
+	width: 80%;
+	background-color: silver;
+	text-align: center;
+}
+
+.charge {
+	text-align: center;
+	width: 100%;
+	color: black;
+	margin: 0 auto 0 auto;
+	border-spacing: 5px 0;
+}
+
+.charge tr td{
+	width: 40%;
+	border-bottom: 1px solid gray;
+	padding: 5px;
+	background-color: silver;
+}
+
+.charge .background-black {
+	background-color: black;
+	color: white;
+	font-size: 1.5em;
+	padding: 10px;
+}
+
+#contact {
+	width: 480px;
+	margin: 0 auto 20px auto;
+	text-align: justify;
+	color: black;
+}
+
+#contact h4 {
+	text-align: center;
+}
+
+#contact input {
+	text-align: center;
+	width: 464px;
+}
+
+#contact input[type="submit"] {
+	width: 100%;
+	color: white;
+	background-color: black;
+	padding: 2px;
+}
+
+footer {
+	width: 70%;
+	margin: 0 auto 0 auto;	
+}
+
+footer .footer-block {
+	background-color: lightgray;
+	float: left;
+	width: 32%;
+	padding: 5px;
+}
+
