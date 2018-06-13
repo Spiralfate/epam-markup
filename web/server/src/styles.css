@@ -4,8 +4,10 @@
 	position: fixed;
 }
 
-.navbar a, p {
+.navbar a, a:visited {
 	display: block;
+	text-decoration: none;
+	color: grey;
 }
 
 .navbar-pages {
