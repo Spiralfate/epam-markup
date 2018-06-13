@@ -4,18 +4,25 @@
 	position: fixed;
 }
 
-.navbar a, a:visited {
+.navbar__link, navbar__link:visited {
 	display: block;
 	text-decoration: none;
 	color: grey;
 }
+
+.navbar__para {
+	color: grey;
+}
+
+
+
 
 .navbar-pages {
 	display: block;
 	text-align: center;
 }
 
-.navbar-pages .focused {
+.navbar-pages__focused {
 	background: black;
 	color: white;
 }
@@ -28,7 +35,7 @@
 	margin-bottom: 20px;
 }
 
-#portfolio img {
+.portfolio__img {
 	width: 33%;
 }
 
@@ -42,14 +49,14 @@
 	color: white;
 }
 
-#about .info {
+.about__info {
 	width: 480px;
 	margin: 0 auto 0 auto;
 	text-align: justify;
 	border-bottom: 1px solid white;
 }
 
-.skills {
+.about__skills {
 	width: 480px;
 	margin: 0 auto 0 auto;
 	border-bottom: 1px solid white;
@@ -94,7 +101,7 @@
 	background-color: silver;
 }
 
-.charge .background-black {
+.charge__background-black {
 	background-color: black;
 	color: white;
 	font-size: 1.5em;
@@ -112,24 +119,24 @@
 	text-align: center;
 }
 
-#contact input {
+.contact__input {
 	text-align: center;
 	width: 464px;
 }
 
-#contact input[type="submit"] {
+.contact__input[type="submit"] {
 	width: 100%;
 	color: white;
 	background-color: black;
 	padding: 2px;
 }
 
-footer {
+.footer {
 	width: 70%;
 	margin: 0 auto 0 auto;	
 }
 
-footer .footer-block {
+.footer__footer-block {
 	background-color: lightgray;
 	float: left;
 	width: 32%;
